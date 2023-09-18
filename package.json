@@ -12,7 +12,8 @@
     ".": "./tsconfig.json"
   },
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "*.mjs"
   ],
   "keywords": [
     "typescript",
