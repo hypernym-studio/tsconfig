@@ -1,0 +1,42 @@
+{
+  "name": "@hypernym/tsconfig",
+  "version": "1.0.0",
+  "author": "Hypernym Studio",
+  "description": "Hypernym's internal config for TypeScript.",
+  "license": "MIT",
+  "repository": "hypernym-studio/tsconfig",
+  "homepage": "https://github.com/hypernym-studio/tsconfig",
+  "funding": "https://github.com/sponsors/ivodolenc",
+  "type": "module",
+  "exports": {
+    ".": "./tsconfig.json"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "typescript",
+    "configuration",
+    "tsconfig",
+    "presets",
+    "config",
+    "esm",
+    "ts"
+  ],
+  "scripts": {
+    "bump": "bummp",
+    "format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@hypernym/prettier-config": "^2.0.0",
+    "bummp": "^0.2.0",
+    "prettier": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=v18.0.0"
+  },
+  "prettier": "@hypernym/prettier-config"
+}
