@@ -1,6 +1,6 @@
 {
   "name": "@hypernym/tsconfig",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Hypernym Studio",
   "description": "Hypernym's internal config for TypeScript.",
   "license": "MIT",
@@ -12,8 +12,7 @@
     ".": "./tsconfig.json"
   },
   "files": [
-    "tsconfig.json",
-    "*.mjs"
+    "tsconfig.json"
   ],
   "keywords": [
     "typescript",
