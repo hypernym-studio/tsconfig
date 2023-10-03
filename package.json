@@ -25,15 +25,13 @@
     "ts"
   ],
   "scripts": {
-    "bump": "bummp",
     "format": "prettier --write ."
   },
   "peerDependencies": {
     "typescript": ">=5.0.0"
   },
   "devDependencies": {
-    "@hypernym/prettier-config": "^2.0.0",
-    "bummp": "^0.2.0",
+    "@hypernym/prettier-config": "^2.0.1",
     "prettier": "^3.0.3"
   },
   "engines": {
