@@ -21,11 +21,13 @@ npm i -D @hypernym/tsconfig
 
 ## Community
 
-Feel free to use the official [discussions](https://github.com/hypernym-studio/tsconfig/discussions) for any additional questions.
+Feel free to ask questions or share new ideas.
+
+Use the official [discussions](https://github.com/hypernym-studio/tsconfig/discussions) to get involved.
 
 ## License
 
-Developed in 🇭🇷 Croatia
+Developed in 🇭🇷 Croatia.
 
 Released under the [MIT](LICENSE.txt) license.
 
