@@ -1,6 +1,6 @@
 {
   "name": "@hypernym/tsconfig",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "author": "Hypernym Studio",
   "description": "Hypernym's internal config for TypeScript.",
   "license": "MIT",
@@ -26,15 +26,16 @@
   "scripts": {
     "format": "prettier --write ."
   },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "peerDependencies": {
     "typescript": ">=5.0.0"
   },
   "devDependencies": {
-    "@hypernym/prettier-config": "^2.0.3",
-    "prettier": "^3.2.2"
-  },
-  "engines": {
-    "node": ">=v18.0.0"
+    "@hypernym/prettier-config": "^3.0.0",
+    "prettier": "^3.2.5"
   },
   "prettier": "@hypernym/prettier-config"
 }
