@@ -1,0 +1,52 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      typescript:
+        specifier: '>=5.0.0'
+        version: 5.5.4
+    devDependencies:
+      '@hypernym/prettier-config':
+        specifier: ^3.2.0
+        version: 3.2.0(prettier@3.3.3)
+      prettier:
+        specifier: ^3.3.3
+        version: 3.3.3
+
+packages:
+
+  '@hypernym/prettier-config@3.2.0':
+    resolution: {integrity: sha512-o/yaFKuplq9F5t9xs8vROs9tDC+MfS0nGQAisxeZjkkf0WhQyfKWKiTrJQHu/WqFpUuUwiWMOEp7xPipN/8rdg==}
+    engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
+    peerDependencies:
+      prettier: '>=3.0.0'
+      prettier-plugin-svelte: '>=3.2.3'
+    peerDependenciesMeta:
+      prettier-plugin-svelte:
+        optional: true
+
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@hypernym/prettier-config@3.2.0(prettier@3.3.3)':
+    dependencies:
+      prettier: 3.3.3
+
+  prettier@3.3.3: {}
+
+  typescript@5.5.4: {}
