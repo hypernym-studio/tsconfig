@@ -11,10 +11,41 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "../../../.",
+    "baseUrl": "${configDir}",
     "paths": {
-      "@/*": ["src/*"],
-      "~/*": ["src/*"]
+      "@/*": ["${configDir}/src/*"],
+      "~/*": ["${configDir}/src/*"]
     }
-  }
+  },
+  "include": [
+    "${configDir}/src/**/*",
+    "${configDir}/test/**/*",
+    "${configDir}/tests/**/*",
+    "${configDir}/*.js",
+    "${configDir}/*.mjs",
+    "${configDir}/*.cjs",
+    "${configDir}/*.ts",
+    "${configDir}/*.mts",
+    "${configDir}/*.cts"
+  ],
+  "exclude": [
+    "${configDir}/.private",
+    "${configDir}/.out",
+    "${configDir}/.tmp",
+    "${configDir}/.temp",
+    "${configDir}/.dist",
+    "${configDir}/.build",
+    "${configDir}/.cache",
+    "${configDir}/.output",
+    "${configDir}/.history",
+    "${configDir}/node_modules",
+    "${configDir}/out",
+    "${configDir}/tmp",
+    "${configDir}/temp",
+    "${configDir}/dist",
+    "${configDir}/build",
+    "${configDir}/cache",
+    "${configDir}/output",
+    "${configDir}/history"
+  ]
 }
