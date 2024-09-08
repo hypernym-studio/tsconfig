@@ -13,7 +13,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "${configDir}",
     "paths": {
+      "@": ["${configDir}/src"],
       "@/*": ["${configDir}/src/*"],
+      "~": ["${configDir}/src"],
       "~/*": ["${configDir}/src/*"]
     }
   },
@@ -21,6 +23,8 @@
     "${configDir}/src/**/*",
     "${configDir}/test/**/*",
     "${configDir}/tests/**/*",
+    "${configDir}/playground/**/*",
+    "${configDir}/playgrounds/**/*",
     "${configDir}/*.js",
     "${configDir}/*.mjs",
     "${configDir}/*.cjs",
