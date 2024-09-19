@@ -1,12 +1,23 @@
-# @hypernym/tsconfig
+<h1 align="center">@hypernym/tsconfig</h1>
 
-Hypernym's internal config for TypeScript.
+<p align="center">Hypernym's config for TypeScript.</p>
 
-<sub><a href="https://github.com/hypernym-studio/tsconfig">Repository</a> | <a href="https://www.npmjs.com/package/@hypernym/tsconfig">Package</a> | <a href="https://github.com/hypernym-studio/tsconfig/releases">Releases</a> | <a href="https://github.com/hypernym-studio/tsconfig/discussions">Discussions</a></sub>
+<p align="center">
+  <a href="https://github.com/hypernym-studio/tsconfig">Repository</a>
+  <span>+</span>
+  <a href="https://www.npmjs.com/package/@hypernym/tsconfig">Package</a>
+  <span>+</span>
+  <a href="https://github.com/hypernym-studio/tsconfig/releases">Releases</a>
+  <span>+</span>
+  <a href="https://github.com/hypernym-studio/tsconfig/discussions">Discussions</a>
+</p>
+<pre align="center">pnpm add -D @hypernym/tsconfig</pre>
 
-```sh
-pnpm add -D @hypernym/tsconfig
-```
+<p align="center">
+  <strong>Hypernym Studio</strong>
+</p>
+
+<br>
 
 ## Usage
 
