@@ -1,8 +1,8 @@
 {
   "name": "@hypernym/tsconfig",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "author": "Hypernym Studio",
-  "description": "Hypernym's internal config for TypeScript.",
+  "description": "Hypernym's config for TypeScript.",
   "license": "MIT",
   "repository": "hypernym-studio/tsconfig",
   "homepage": "https://github.com/hypernym-studio/tsconfig",
@@ -27,13 +27,19 @@
     "format": "prettier --write ."
   },
   "sideEffects": false,
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.10.0",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
   },
   "peerDependencies": {
+    "@types/node": ">=20.0.0",
     "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@hypernym/prettier-config": "^3.2.0",
