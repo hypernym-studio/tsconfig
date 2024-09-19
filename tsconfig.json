@@ -23,6 +23,7 @@
     "${configDir}/src/**/*",
     "${configDir}/test/**/*",
     "${configDir}/tests/**/*",
+    "${configDir}/scripts/**/*",
     "${configDir}/playground/**/*",
     "${configDir}/playgrounds/**/*",
     "${configDir}/*.js",
