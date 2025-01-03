@@ -26,6 +26,8 @@
     "${configDir}/scripts/**/*",
     "${configDir}/playground/**/*",
     "${configDir}/playgrounds/**/*",
+    "${configDir}/package/**/*",
+    "${configDir}/packages/**/*",
     "${configDir}/*.js",
     "${configDir}/*.mjs",
     "${configDir}/*.cjs",
