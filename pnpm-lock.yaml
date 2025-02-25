@@ -16,16 +16,16 @@ importers:
         version: 5.7.2
     devDependencies:
       '@hypernym/prettier-config':
-        specifier: ^3.2.1
-        version: 3.2.1(prettier@3.4.2)
+        specifier: ^3.2.2
+        version: 3.2.2(prettier@3.5.2)
       prettier:
-        specifier: ^3.4.2
-        version: 3.4.2
+        specifier: ^3.5.2
+        version: 3.5.2
 
 packages:
 
-  '@hypernym/prettier-config@3.2.1':
-    resolution: {integrity: sha512-y+4AGWGy40m5Rp9BYlEVH+1e41D73brwUrVkuVHgkPba/4YGcCUICGmRYhVvq2uH3fntnYaqqj+hp6BmKolUTA==}
+  '@hypernym/prettier-config@3.2.2':
+    resolution: {integrity: sha512-z/T2janQ5oqlK1D9JFmvz6UVILkX8BC1TuCNlZ2ToJ/FJALAk/AzaNgrQKhwv8A5FwUpW2jSMlOOZdxANrnvdQ==}
     engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       prettier: '>=3.0.0'
@@ -37,8 +37,8 @@ packages:
   '@types/node@22.10.5':
     resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
 
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+  prettier@3.5.2:
+    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -52,15 +52,15 @@ packages:
 
 snapshots:
 
-  '@hypernym/prettier-config@3.2.1(prettier@3.4.2)':
+  '@hypernym/prettier-config@3.2.2(prettier@3.5.2)':
     dependencies:
-      prettier: 3.4.2
+      prettier: 3.5.2
 
   '@types/node@22.10.5':
     dependencies:
       undici-types: 6.20.0
 
-  prettier@3.4.2: {}
+  prettier@3.5.2: {}
 
   typescript@5.7.2: {}
 
