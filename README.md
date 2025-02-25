@@ -1,21 +1,20 @@
-<h1 align="center">@hypernym/tsconfig</h1>
+<h1 align="center">TSConfig</h1>
 
 <p align="center">Hypernym's config for TypeScript.</p>
 
 <p align="center">
   <a href="https://github.com/hypernym-studio/tsconfig">Repository</a>
-  <span>+</span>
+  <span>✦</span>
   <a href="https://www.npmjs.com/package/@hypernym/tsconfig">Package</a>
-  <span>+</span>
+  <span>✦</span>
   <a href="https://github.com/hypernym-studio/tsconfig/releases">Releases</a>
-  <span>+</span>
+  <span>✦</span>
   <a href="https://github.com/hypernym-studio/tsconfig/discussions">Discussions</a>
 </p>
-<pre align="center">pnpm add -D @hypernym/tsconfig</pre>
 
-<p align="center">
-  <strong>Hypernym Studio</strong>
-</p>
+<br>
+
+<pre align="center">pnpm add @hypernym/tsconfig</pre>
 
 <br>
 
@@ -23,7 +22,6 @@
 
 ```js
 // tsconfig.json
-
 {
   "extends": "@hypernym/tsconfig"
 }
