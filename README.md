@@ -1,4 +1,4 @@
-<h1 align="center">TSConfig</h1>
+<h1 align="center">@hypernym/tsconfig</h1>
 
 <p align="center">Hypernym's config for TypeScript.</p>
 
@@ -14,7 +14,7 @@
 
 <br>
 
-<pre align="center">pnpm add @hypernym/tsconfig</pre>
+<pre align="center">pnpm add -D @hypernym/tsconfig</pre>
 
 <br>
 
@@ -22,8 +22,26 @@
 
 ```js
 // tsconfig.json
+
 {
   "extends": "@hypernym/tsconfig"
+}
+```
+
+## Custom Setup
+
+```ts
+// tsconfig.json
+
+{
+  "extends": "@hypernym/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"]
+    }
+  }
 }
 ```
 
