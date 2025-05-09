@@ -4,7 +4,10 @@
   "author": "Hypernym Studio",
   "description": "Hypernym's config for TypeScript.",
   "license": "MIT",
-  "repository": "hypernym-studio/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypernym-studio/tsconfig.git"
+  },
   "homepage": "https://github.com/hypernym-studio/tsconfig",
   "funding": "https://github.com/sponsors/ivodolenc",
   "type": "module",
@@ -26,12 +29,6 @@
   "scripts": {
     "format": "prettier --write ."
   },
-  "sideEffects": false,
-  "packageManager": "pnpm@10.4.1",
-  "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=9.0.0"
-  },
   "peerDependencies": {
     "@types/node": ">=20.0.0",
     "typescript": ">=5.0.0"
@@ -42,7 +39,7 @@
     }
   },
   "devDependencies": {
-    "@hypernym/prettier-config": "^3.2.2",
-    "prettier": "^3.5.2"
+    "@hypernym/prettier-config": "^3.2.3",
+    "prettier": "^3.5.3"
   }
 }
