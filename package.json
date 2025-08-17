@@ -39,7 +39,7 @@
     }
   },
   "devDependencies": {
-    "@hypernym/prettier-config": "^3.2.3",
-    "prettier": "^3.5.3"
+    "@hypernym/prettier-config": "^3.2.6",
+    "prettier": "^3.6.2"
   }
 }
