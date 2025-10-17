@@ -16,16 +16,16 @@ importers:
         version: 5.9.2
     devDependencies:
       '@hypernym/prettier-config':
-        specifier: ^3.2.6
-        version: 3.2.6(prettier@3.6.2)
+        specifier: ^3.2.9
+        version: 3.2.9(prettier@3.6.2)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
 
 packages:
 
-  '@hypernym/prettier-config@3.2.6':
-    resolution: {integrity: sha512-epYIXewPFba1wmBN+a9Y4yGi5xQmchPJwuMnaw6tV7h/opbFPaRlrhEGBKoRYov3/BB0/alFBs8EcFSPiefRVw==}
+  '@hypernym/prettier-config@3.2.9':
+    resolution: {integrity: sha512-NB4/Jxr3cqaIDYZZXKwZpntiNGzMWccTFnPdHuke62XMoYygQ1QmYCJYrX3T0g2IqNDVESOdeGCW0+QZirNMOQ==}
     peerDependencies:
       prettier: '>=3.0.0'
       prettier-plugin-svelte: '>=3.2.3'
@@ -51,7 +51,7 @@ packages:
 
 snapshots:
 
-  '@hypernym/prettier-config@3.2.6(prettier@3.6.2)':
+  '@hypernym/prettier-config@3.2.9(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
 
