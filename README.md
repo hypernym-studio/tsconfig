@@ -1,6 +1,6 @@
 <h1 align="center">@hypernym/tsconfig</h1>
 
-<p align="center">Hypernym's config for TypeScript.</p>
+<p align="center">Hypernym's internal config for TypeScript.</p>
 
 <p align="center">
   <a href="https://github.com/hypernym-studio/tsconfig">Repository</a>
