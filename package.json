@@ -1,6 +1,6 @@
 {
   "name": "@hypernym/tsconfig",
-  "version": "2.6.5",
+  "version": "2.7.0",
   "author": "Hypernym Studio",
   "description": "Hypernym's internal config for TypeScript.",
   "license": "MIT",
