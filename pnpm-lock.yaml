@@ -14,32 +14,11 @@ importers:
       typescript:
         specifier: '>=5.0.0'
         version: 5.9.3
-    devDependencies:
-      '@hypernym/prettier-config':
-        specifier: ^3.2.11
-        version: 3.2.11(prettier@3.8.0)
-      prettier:
-        specifier: ^3.8.0
-        version: 3.8.0
 
 packages:
 
-  '@hypernym/prettier-config@3.2.11':
-    resolution: {integrity: sha512-Z9pfDEH2kJVkDya2ysT3+k87XPpCfV+qX1L+ICxori2WlbIVYO+hF/RBB9IJDc6mzmyViMNj803u6DrcVC1pgA==}
-    peerDependencies:
-      prettier: '>=3.0.0'
-      prettier-plugin-svelte: '>=3.2.3'
-    peerDependenciesMeta:
-      prettier-plugin-svelte:
-        optional: true
-
   '@types/node@25.0.9':
     resolution: {integrity: sha512-/rpCXHlCWeqClNBwUhDcusJxXYDjZTyE8v5oTO7WbL8eij2nKhUeU89/6xgjU7N4/Vh3He0BtyhJdQbDyhiXAw==}
-
-  prettier@3.8.0:
-    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
-    engines: {node: '>=14'}
-    hasBin: true
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
@@ -51,15 +30,9 @@ packages:
 
 snapshots:
 
-  '@hypernym/prettier-config@3.2.11(prettier@3.8.0)':
-    dependencies:
-      prettier: 3.8.0
-
   '@types/node@25.0.9':
     dependencies:
       undici-types: 7.16.0
-
-  prettier@3.8.0: {}
 
   typescript@5.9.3: {}
 

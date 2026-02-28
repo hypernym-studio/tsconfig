@@ -2,7 +2,7 @@
   "name": "@hypernym/tsconfig",
   "version": "2.6.5",
   "author": "Hypernym Studio",
-  "description": "Hypernym's config for TypeScript.",
+  "description": "Hypernym's internal config for TypeScript.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,8 +18,11 @@
     "tsconfig.json"
   ],
   "keywords": [
+    "hyper",
+    "hypernym",
     "typescript",
     "configuration",
+    "shareable",
     "tsconfig",
     "presets",
     "config",
@@ -27,7 +30,7 @@
     "ts"
   ],
   "scripts": {
-    "format": "prettier --write ."
+    "format": "oxfmt"
   },
   "peerDependencies": {
     "@types/node": ">=20.0.0",
@@ -37,9 +40,5 @@
     "@types/node": {
       "optional": true
     }
-  },
-  "devDependencies": {
-    "@hypernym/prettier-config": "^3.2.11",
-    "prettier": "^3.8.0"
   }
 }
