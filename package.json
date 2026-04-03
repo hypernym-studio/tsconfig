@@ -30,7 +30,8 @@
     "ts"
   ],
   "scripts": {
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "generate:changelog": "hyperchangelog"
   },
   "peerDependencies": {
     "@types/node": ">=20.0.0",
@@ -40,5 +41,9 @@
     "@types/node": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "@hypernym/changelog": "^0.3.0",
+    "typescript": "^5.9.3"
   }
 }

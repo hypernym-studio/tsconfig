@@ -10,30 +10,92 @@ importers:
     dependencies:
       '@types/node':
         specifier: '>=20.0.0'
-        version: 25.0.9
+        version: 25.5.1
+    devDependencies:
+      '@hypernym/changelog':
+        specifier: ^0.3.0
+        version: 0.3.0(@types/node@25.5.1)(typescript@5.9.3)
       typescript:
-        specifier: '>=5.0.0'
+        specifier: ^5.9.3
         version: 5.9.3
 
 packages:
 
-  '@types/node@25.0.9':
-    resolution: {integrity: sha512-/rpCXHlCWeqClNBwUhDcusJxXYDjZTyE8v5oTO7WbL8eij2nKhUeU89/6xgjU7N4/Vh3He0BtyhJdQbDyhiXAw==}
+  '@hypernym/args@0.3.7':
+    resolution: {integrity: sha512-PyX6+VqJ3YJ/jK9MOZahzuUpCUaxym0QdcHn+yNAJinmeoNKclh6AMveuOk/HuiEHOtDP59SY2voEBDiyUhFQA==}
+
+  '@hypernym/changelog@0.3.0':
+    resolution: {integrity: sha512-ojbp6t9teO/Ith+F5vZ7W2OyDTv9Y7GMAyO0lePIgia18KBmYis0L7dc1a5FjC+f5QoWIWXH89gWpzz7pG0hdA==}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>=20.0.0'
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      typescript:
+        optional: true
+
+  '@hypernym/colors@1.0.8':
+    resolution: {integrity: sha512-uwfE5ivQRUxjY7fWSLgy9xkaitjKYM3kd4fTVAC2K2FxT9YxPhAEHqfOJ1n0/C5SgLOX72K+CXLOL6n95SBnHQ==}
+    peerDependencies:
+      '@types/node': '>=20.0.0'
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      typescript:
+        optional: true
+
+  '@hypernym/utils@3.4.9':
+    resolution: {integrity: sha512-TXbiNU7hAxuhG5tBz2/Pw/bFObMk8J9WNPs0dRS1RPSZ9wlc2HVwJkPdz6IPw8kpn9KCnL57jv3dtLDQ9n1wBw==}
+    peerDependencies:
+      '@types/node': '>=20.0.0'
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      typescript:
+        optional: true
+
+  '@types/node@25.5.1':
+    resolution: {integrity: sha512-lgrR3HRNQdTEeeXBnLURFO4JIIbpcVcMlLM9IG0jsNRTRNSbMkm9S2hyhxhnokke1NM25Dr9QghgeB5PQKolrw==}
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
 snapshots:
 
-  '@types/node@25.0.9':
+  '@hypernym/args@0.3.7': {}
+
+  '@hypernym/changelog@0.3.0(@types/node@25.5.1)(typescript@5.9.3)':
     dependencies:
-      undici-types: 7.16.0
+      '@hypernym/args': 0.3.7
+      '@hypernym/colors': 1.0.8(@types/node@25.5.1)(typescript@5.9.3)
+      '@hypernym/utils': 3.4.9(@types/node@25.5.1)(typescript@5.9.3)
+    optionalDependencies:
+      '@types/node': 25.5.1
+      typescript: 5.9.3
+
+  '@hypernym/colors@1.0.8(@types/node@25.5.1)(typescript@5.9.3)':
+    optionalDependencies:
+      '@types/node': 25.5.1
+      typescript: 5.9.3
+
+  '@hypernym/utils@3.4.9(@types/node@25.5.1)(typescript@5.9.3)':
+    optionalDependencies:
+      '@types/node': 25.5.1
+      typescript: 5.9.3
+
+  '@types/node@25.5.1':
+    dependencies:
+      undici-types: 7.18.2
 
   typescript@5.9.3: {}
 
-  undici-types@7.16.0: {}
+  undici-types@7.18.2: {}
