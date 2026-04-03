@@ -4,11 +4,11 @@
 
 <p align="center">
   <a href="https://github.com/hypernym-studio/tsconfig">Repository</a>
-  <span>✦</span>
+  <span>|</span>
   <a href="https://www.npmjs.com/package/@hypernym/tsconfig">Package</a>
-  <span>✦</span>
+  <span>|</span>
   <a href="https://github.com/hypernym-studio/tsconfig/releases">Releases</a>
-  <span>✦</span>
+  <span>|</span>
   <a href="https://github.com/hypernym-studio/tsconfig/discussions">Discussions</a>
 </p>
 
